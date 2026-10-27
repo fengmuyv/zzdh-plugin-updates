@@ -23,6 +23,52 @@
         "ui/plugin-sdk.js": "eec8c75a8762963a217b5b8c479b7d816e2347ab182f5c1fd49bee5d1e2d975f",
         "ui/plugin-sdk.css": "c01c4decae2096d54e8393232285f253a4a025f7e6ae6e0e45dcb3c7ec6961ff"
       }
+    },
+    "fengmuyv.suanliai-video-stable": {
+      "version": "1.4.4",
+      "min_host_version": "9.0.9",
+      "release_notes": "新增 GitHub 自动检查与点击更新；生成和取片期间禁止更新；校验程序包并保留 Key、配置、模型目录和任务记录；安装后重启。",
+      "package": {
+        "url": "https://github.com/fengmuyv/zzdh-plugin-updates/releases/download/suanli-v1.4.4/v1.4.4_suanliai_video_stable.zip",
+        "sha256": "b2fedd45e61b86a379dcb0ae3c4886453b59d1f80ab284a72ea3b556d0c87763",
+        "size": 72029
+      },
+      "files": {
+        "main.py": "d452032db6909371c19ad7eb04c09bffba5b91942b5e8d232701ce76dc656021",
+        "info.json": "efe5f89e9c306bbe437f076406652860d6e1d5b46353e773912004ce11ef298d",
+        "plugin_update.py": "b3d89a5d47368e636caea6727bf8027d7229401cfcc0f5f55f13bdb2b81249d9",
+        "video_restart_recovery.py": "439a8fef6db13f1800529cc53d15a3f9590812f12ff32d42d5134ddad7f6e971",
+        "ui/index.html": "7eed0546006ee029d958f0ee8e2c2869a5705bdc64ac572154d312faf748b933",
+        "ui/video-restart-recovery.js": "5c7545338422651be0bca8ea39cf5c133a0d866cae248990741cb3680839f7fc",
+        "ui/plugin-update.js": "fb1afc90eb13421fec8c1cbed6de9623bdff6956e1679fd669354e70aeac1707",
+        "ui/plugin-sdk.js": "eec8c75a8762963a217b5b8c479b7d816e2347ab182f5c1fd49bee5d1e2d975f",
+        "ui/plugin-sdk.css": "c01c4decae2096d54e8393232285f253a4a025f7e6ae6e0e45dcb3c7ec6961ff",
+        "catalog_sync.py": "9299db837be4a2b65b5f7a7751e57f6095dd793a617e2717f11c58a41fa4d9c7",
+        "default_model_catalog.json": "7f9fc2997f5fc9f5a40bc2302e51ed9331c744cd56a88e709136d1762ff7be89"
+      }
+    },
+    "fengmuyv.xingran-video-channel": {
+      "version": "3.0.10",
+      "min_host_version": "9.0.9",
+      "release_notes": "新增 GitHub 自动检查与点击更新；生成和取片期间禁止更新；校验程序包并保留 Key、配置、模型目录和任务记录；安装后重启。",
+      "package": {
+        "url": "https://github.com/fengmuyv/zzdh-plugin-updates/releases/download/xingran-v3.0.10/v3.0.10_xingran_video_plugin.zip",
+        "sha256": "7170cb82ff3f164d0af6f0cad5b776040a29215e28531cdaca25690102b0d9b9",
+        "size": 51770
+      },
+      "files": {
+        "main.py": "9e8745d3593be38c6b299dd6e246542d409871162d7a336993b54216e73a0536",
+        "info.json": "8c7bf8c25d3456ffde7161198d748c09514c26a2abf80bed6805091a6f6c2009",
+        "plugin_update.py": "b3d89a5d47368e636caea6727bf8027d7229401cfcc0f5f55f13bdb2b81249d9",
+        "video_restart_recovery.py": "439a8fef6db13f1800529cc53d15a3f9590812f12ff32d42d5134ddad7f6e971",
+        "ui/index.html": "749da1a85e15dfd99e7b7c69a630e9a75a1f9f028b1db4caaf6c5d7020a7171b",
+        "ui/video-restart-recovery.js": "5c7545338422651be0bca8ea39cf5c133a0d866cae248990741cb3680839f7fc",
+        "ui/plugin-update.js": "fb1afc90eb13421fec8c1cbed6de9623bdff6956e1679fd669354e70aeac1707",
+        "ui/plugin-sdk.js": "eec8c75a8762963a217b5b8c479b7d816e2347ab182f5c1fd49bee5d1e2d975f",
+        "ui/plugin-sdk.css": "c01c4decae2096d54e8393232285f253a4a025f7e6ae6e0e45dcb3c7ec6961ff",
+        "catalog_metadata.py": "66c12a79d3d1a61c1ec4504ce57b7bbadff8e258dd1ae0408e70f083877c411f",
+        "reference_media_guard.py": "1579b5a88cfc7b724f2ab63456fbf7ba70f0fc96375c9e94baf0ee85481afb3c"
+      }
     }
   }
 }
