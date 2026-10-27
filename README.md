@@ -1,9 +1,9 @@
 # 字字动画插件更新
 
-当前：器灵视频定制版 v3.3.7。
+免费 GitHub 发布源：器灵、算力、星燃视频插件。
 
-[下载安装包](https://github.com/fengmuyv/zzdh-plugin-updates/releases/tag/v3.3.7) · [安装与更新说明](v1_README.md)
+从 [Releases](https://github.com/fengmuyv/zzdh-plugin-updates/releases) 下载对应 ZIP。旧版需先手动安装一次支持更新的版本。退出字字动画、保留原插件目录名，将 ZIP 内程序文件放入对应目录；双目录安装需同步两处。保留自己的 config.json、model_catalog.json、任务数据库与素材。
 
-首次手动安装本版并重启后，插件面板可以自动检查及点击升级。
+重启后打开插件面板会自动检查；发现新版，点击“下载并更新”，完成后重启。生成或取片期间会拒绝更新；网络失败可继续使用当前版本。首次安装填写自己的 Key 并同步模型，API 生成服务由各自渠道计费。
 
-适用字字动画9.0.9 / Windows，安装目录需在D、E等非C盘。包内无Key、个人配置和任务库。
+适用字字动画 9.0.9 / Windows；安装和更新数据位于非 C 盘。更新只管理程序文件，按插件独立验证身份、SHA256、版本和备份，失败回滚。仓库不含个人配置、Key、任务或素材。
