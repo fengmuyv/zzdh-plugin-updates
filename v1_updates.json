@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "plugins": {
+    "fengmuyv.qiling-video-channel": {
+      "version": "3.3.7",
+      "min_host_version": "9.0.9",
+      "release_notes": "新增 GitHub 自动检查及点击升级；生成和取片期间禁止升级；保留配置、Key 与任务记录；校验失败不安装，替换失败自动回滚。",
+      "package": {
+        "url": "https://github.com/fengmuyv/zzdh-plugin-updates/releases/download/v3.3.7/v3.3.7_qiling_video_plugin.zip",
+        "sha256": "e8d4e35c00f759db4b851d08363b392510c09e85c730691acbefd258f1626d14",
+        "size": 56349
+      },
+      "files": {
+        "main.py": "e48a55bfd9458d3b8e7ebc2acc5e90a3bad2cf7ebcbbe688cc5ffc7a68e1ae27",
+        "info.json": "41247db41be748854c99cb517d8a3d1e6e0362f4049617a169ca779021df2018",
+        "plugin_update.py": "566f61717249592d118e44c42aa8340438026e31216e5a538ca7bf5d29d004cc",
+        "reference_media_guard.py": "632f2f5250d7d796e2066d05c40f6abcbe7c0d3f1dc1a2edab0a7b52199a50ce",
+        "video_recovery.py": "0d32417b27631b36cc07d891651a6acf3eb0833940be20db5c57f7da465e21f0",
+        "model_reference_limits.json": "0661d8f4378a374139e360b501b7dfb33d7718bea42782d9b20bdc44959fc2c7",
+        "ui/index.html": "9cabf00ba038bfaa8d09032fb9bb68c0549015abd487ddf099cc6f196d536525",
+        "ui/video-recovery.js": "8a3be8f11ee1676234b2f65c34fa9c9b1a005dbb999366e60eb6ff5b77a5c334",
+        "ui/plugin-update.js": "fb1afc90eb13421fec8c1cbed6de9623bdff6956e1679fd669354e70aeac1707",
+        "ui/plugin-sdk.js": "eec8c75a8762963a217b5b8c479b7d816e2347ab182f5c1fd49bee5d1e2d975f",
+        "ui/plugin-sdk.css": "c01c4decae2096d54e8393232285f253a4a025f7e6ae6e0e45dcb3c7ec6961ff"
+      }
+    }
+  }
+}
