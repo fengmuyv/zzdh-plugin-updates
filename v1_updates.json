@@ -2,45 +2,45 @@
   "schema_version": 1,
   "plugins": {
     "fengmuyv.qiling-video-channel": {
-      "version": "3.3.10",
+      "version": "3.3.11",
       "min_host_version": "9.0.9",
-      "release_notes": "修复GitHub更新连接重置：清单与安装包下载失败均可切换同一仓库的官方API；限次重试、中文错误提示、安装前核对SHA256。保留Key、配置、任务及最近3份正常旧版备份，安装后重启。",
+      "release_notes": "GitHub 为主、Gitee 为辅：清单和安装包连接失败自动切换备用源；整包与逐文件 SHA256 校验，保留配置、模型、任务和最近3份正常旧版备份。安装后重启。",
       "package": {
-        "url": "https://github.com/fengmuyv/zzdh-plugin-updates/releases/download/qiling-v3.3.10/v3.3.10_qiling_video_plugin_1.44.zip",
-        "sha256": "352a15645acd197a83e838a2903ab142168d7514886e5e0c3ef29a51c571d674",
-        "size": 61481
+        "url": "https://github.com/fengmuyv/zzdh-plugin-updates/releases/download/qiling-v3.3.11/v3.3.11_qiling_video_plugin_1.44.zip",
+        "sha256": "139b3cb4d21c3a9e5d65c99504046a32e7990f44379fe94a0d114fbecd32da08",
+        "size": 61876
       },
       "files": {
-        "main.py": "88b65b1264a702ef17d06a2971532023444f4043f14adae1fc4d3b74ba5f1f7e",
-        "info.json": "3b46919ae92fc1192b674f70872175608b8beb28280f6050de672480760f86d4",
-        "plugin_update.py": "385ff79cbd7de83b4d7cbe8e664a46dbb392f5dc28eb77dd18b94263a30202ef",
+        "main.py": "68a4d8bc5c14eb502f0960ea654ec12fd753274df6e15391f5c3ab0d9c8d006b",
+        "info.json": "0872f47cba2c2b8e1d63b58da87e201e8924217d7edbfff3cd263b20b1120a1f",
+        "plugin_update.py": "77598e1e8d9e8da498bfacd9bc34b8db0f157852d0bc39a0d1d458a5d7af36db",
         "reference_media_guard.py": "632f2f5250d7d796e2066d05c40f6abcbe7c0d3f1dc1a2edab0a7b52199a50ce",
         "video_recovery.py": "0d32417b27631b36cc07d891651a6acf3eb0833940be20db5c57f7da465e21f0",
         "model_reference_limits.json": "0661d8f4378a374139e360b501b7dfb33d7718bea42782d9b20bdc44959fc2c7",
-        "ui/index.html": "61336a0d1fb658e22013514e9dadf4cbffeeba2f1af852fe87378017233650fb",
+        "ui/index.html": "ea5cf8aa43332b31ee3030d20dc0e5ebb3769deb98cfcdcb42ec48886e430d7f",
         "ui/video-recovery.js": "8a3be8f11ee1676234b2f65c34fa9c9b1a005dbb999366e60eb6ff5b77a5c334",
-        "ui/plugin-update.js": "07ad507d3392f77eb9f8ca40aa52eefda62fbc32187c01be90bc05447ed32f43",
+        "ui/plugin-update.js": "2d7e12d69f74abd19632f209286396f0c3eda0807cbdcf5f6a15350d20a1105b",
         "ui/plugin-sdk.js": "eec8c75a8762963a217b5b8c479b7d816e2347ab182f5c1fd49bee5d1e2d975f",
         "ui/plugin-sdk.css": "c01c4decae2096d54e8393232285f253a4a025f7e6ae6e0e45dcb3c7ec6961ff"
       }
     },
     "fengmuyv.suanliai-video-stable": {
-      "version": "1.4.7",
+      "version": "1.4.8",
       "min_host_version": "9.0.9",
-      "release_notes": "修复GitHub更新连接重置：清单与安装包下载失败均可切换同一仓库的官方API；限次重试、中文错误提示、安装前核对SHA256。保留Key、配置、任务及最近3份正常旧版备份，安装后重启。",
+      "release_notes": "GitHub 为主、Gitee 为辅：清单和安装包连接失败自动切换备用源；整包与逐文件 SHA256 校验，保留配置、模型、任务和最近3份正常旧版备份。安装后重启。",
       "package": {
-        "url": "https://github.com/fengmuyv/zzdh-plugin-updates/releases/download/suanli-v1.4.7/v1.4.7_suanliai_video_stable.zip",
-        "sha256": "2fb837f957594666199bac79e42757db3010de9239df9c5930cb9f34e35662df",
-        "size": 76739
+        "url": "https://github.com/fengmuyv/zzdh-plugin-updates/releases/download/suanli-v1.4.8/v1.4.8_suanliai_video_stable.zip",
+        "sha256": "88ff4230943431e6bd1320ac3996ee1414e9a26f6f227eeadcbd2405bc8de7c8",
+        "size": 77137
       },
       "files": {
-        "main.py": "88a2886c587b7af303564699f92f3f8010bd711fe3938d5f2e21e7c52a50e9f5",
-        "info.json": "057768ea99945c6c629cf7b03e13dca29553c51f4539821b62900743162255cc",
-        "plugin_update.py": "385ff79cbd7de83b4d7cbe8e664a46dbb392f5dc28eb77dd18b94263a30202ef",
+        "main.py": "0f1e02a41c23423f25cbb202d57b0f4759cd459b006577e028263067b25fd191",
+        "info.json": "68b98f93658791e1300e7cf7180a1ef6959a5921cc72c57e71b6026fceda9ba3",
+        "plugin_update.py": "77598e1e8d9e8da498bfacd9bc34b8db0f157852d0bc39a0d1d458a5d7af36db",
         "video_restart_recovery.py": "439a8fef6db13f1800529cc53d15a3f9590812f12ff32d42d5134ddad7f6e971",
-        "ui/index.html": "08ec2d9c663e59d31b9699b46aa3566971b072b3b2fd5d25c7d20c9d07af7fff",
+        "ui/index.html": "804d858bb918c8d1a2b283c71a673eaa76f124df3e6089d8fbb05ea3f63b6c16",
         "ui/video-restart-recovery.js": "5c7545338422651be0bca8ea39cf5c133a0d866cae248990741cb3680839f7fc",
-        "ui/plugin-update.js": "07ad507d3392f77eb9f8ca40aa52eefda62fbc32187c01be90bc05447ed32f43",
+        "ui/plugin-update.js": "2d7e12d69f74abd19632f209286396f0c3eda0807cbdcf5f6a15350d20a1105b",
         "ui/plugin-sdk.js": "eec8c75a8762963a217b5b8c479b7d816e2347ab182f5c1fd49bee5d1e2d975f",
         "ui/plugin-sdk.css": "c01c4decae2096d54e8393232285f253a4a025f7e6ae6e0e45dcb3c7ec6961ff",
         "catalog_sync.py": "9299db837be4a2b65b5f7a7751e57f6095dd793a617e2717f11c58a41fa4d9c7",
@@ -48,22 +48,22 @@
       }
     },
     "fengmuyv.xingran-video-channel": {
-      "version": "3.0.13",
+      "version": "3.0.14",
       "min_host_version": "9.0.9",
-      "release_notes": "修复GitHub更新连接重置：清单与安装包下载失败均可切换同一仓库的官方API；限次重试、中文错误提示、安装前核对SHA256。保留Key、配置、任务及最近3份正常旧版备份，安装后重启。",
+      "release_notes": "GitHub 为主、Gitee 为辅：清单和安装包连接失败自动切换备用源；整包与逐文件 SHA256 校验，保留配置、模型、任务和最近3份正常旧版备份。安装后重启。",
       "package": {
-        "url": "https://github.com/fengmuyv/zzdh-plugin-updates/releases/download/xingran-v3.0.13/v3.0.13_xingran_video_plugin.zip",
-        "sha256": "79bf8682b9bff2673c658408e4a30d2e74529ab49fabd22644c3e41b7f91aba9",
-        "size": 56478
+        "url": "https://github.com/fengmuyv/zzdh-plugin-updates/releases/download/xingran-v3.0.14/v3.0.14_xingran_video_plugin.zip",
+        "sha256": "10d4b9e62b0cda4ae36096c5577ff3ffc0a28eab6bd64db995e1ff48dbb1e3a2",
+        "size": 56871
       },
       "files": {
-        "main.py": "17b55821a2c3cdeb0114b8d497f1641928b0845402693bc5fa6209fda36cf257",
-        "info.json": "7664efe88b9cab9a43b9792eccf9abec9ba9f39f466af1295c83cb80516b3fe3",
-        "plugin_update.py": "385ff79cbd7de83b4d7cbe8e664a46dbb392f5dc28eb77dd18b94263a30202ef",
+        "main.py": "4966861d9431e2d7aa10af0488e923076d23214091fd8bd1a6414fec9667d4af",
+        "info.json": "69630ec8b637a7b2efa960c87872ac0ade7228d07a75775c750a1ee41e7182e0",
+        "plugin_update.py": "77598e1e8d9e8da498bfacd9bc34b8db0f157852d0bc39a0d1d458a5d7af36db",
         "video_restart_recovery.py": "439a8fef6db13f1800529cc53d15a3f9590812f12ff32d42d5134ddad7f6e971",
-        "ui/index.html": "6e69d4c6d79710988dbfe1dfb787958932961caf09b9d347f4e3b248edc1a915",
+        "ui/index.html": "221dd6f67107d18c2326cb4ce80775cfde9d812224f54fb44f0ede4bad6601e3",
         "ui/video-restart-recovery.js": "5c7545338422651be0bca8ea39cf5c133a0d866cae248990741cb3680839f7fc",
-        "ui/plugin-update.js": "07ad507d3392f77eb9f8ca40aa52eefda62fbc32187c01be90bc05447ed32f43",
+        "ui/plugin-update.js": "2d7e12d69f74abd19632f209286396f0c3eda0807cbdcf5f6a15350d20a1105b",
         "ui/plugin-sdk.js": "eec8c75a8762963a217b5b8c479b7d816e2347ab182f5c1fd49bee5d1e2d975f",
         "ui/plugin-sdk.css": "c01c4decae2096d54e8393232285f253a4a025f7e6ae6e0e45dcb3c7ec6961ff",
         "catalog_metadata.py": "66c12a79d3d1a61c1ec4504ce57b7bbadff8e258dd1ae0408e70f083877c411f",
