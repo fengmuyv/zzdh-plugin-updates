@@ -2,22 +2,22 @@
   "schema_version": 1,
   "plugins": {
     "fengmuyv.qiling-video-channel": {
-      "version": "3.3.12",
+      "version": "3.3.13",
       "min_host_version": "9.0.9",
-      "release_notes": "参考图最多3路并发，同图复用；10MiB以内按原字节上传，只有大于10MiB的静态PNG尝试无损优化，变小才用。保持尺寸、像素、透明度和色彩信息；JPEG等原样上传。素材失败停止后续上传和生成提交。保留Key、配置、模型、任务、下载恢复、双源更新和最近3份更新备份。重启字字动画生效。",
+      "release_notes": "自动检测直连、系统代理、环境代理、已配置代理及本机实际监听的HTTP代理，按目标站点选择可用链路并缓存，失败后重新选路；不固定代理地址或端口。提交响应不明时停止重发，避免重复建单，器灵保留公开任务号找回。保留个人Key、配置、模型目录、任务数据、原图上传和下载恢复。保存工作后重启字字动画生效。32项暂存专项、32项安装后专项及5套既有回归通过；公网连接探测通过，未提交收费生成。",
       "package": {
-        "url": "https://github.com/fengmuyv/zzdh-plugin-updates/releases/download/qiling-v3.3.12/v3.3.12_qiling_video_plugin_1.44.zip",
-        "sha256": "2907855b5990507e26858f827fd7a1dbfc6d52e1c5f4d40591da702a07c46f2c",
-        "size": 64827
+        "url": "https://github.com/fengmuyv/zzdh-plugin-updates/releases/download/qiling-v3.3.13/v3.3.13_qiling_video_plugin_1.44.zip",
+        "sha256": "5d46e5de81ef89482d498fe98995417e892d8837b423df7ef5196bf2440ceffd",
+        "size": 71055
       },
       "files": {
-        "main.py": "e31e9fae1b8bb5d2732a6bfc28bde23f8760aa8477838dbc3784a80b6c119a1e",
-        "info.json": "5412a518841a2e561b116241eeece38d6a4838365ce7eca5b5e44e36335fee31",
-        "plugin_update.py": "77598e1e8d9e8da498bfacd9bc34b8db0f157852d0bc39a0d1d458a5d7af36db",
+        "main.py": "b4b37087896ea9076b28140afef74cd1525e0134132e1484e414d506b4915d05",
+        "info.json": "d66272bb07d623c52374a9a11c1c7da3c3e23606364ad3982e8e0d18603aec99",
+        "plugin_update.py": "8cfbb06b94d7fe86c7d441cb2965c120b815e0bfeac84d7aadc34c06540deb0c",
         "reference_media_guard.py": "632f2f5250d7d796e2066d05c40f6abcbe7c0d3f1dc1a2edab0a7b52199a50ce",
         "video_recovery.py": "0d32417b27631b36cc07d891651a6acf3eb0833940be20db5c57f7da465e21f0",
         "model_reference_limits.json": "0661d8f4378a374139e360b501b7dfb33d7718bea42782d9b20bdc44959fc2c7",
-        "ui/index.html": "27d82ec8da8c76a6d936cd043b5cc244342111329812b2c0cbd1500470af5454",
+        "ui/index.html": "fb6a9e4e5341129bfc9b46fddf9407c2f7a938edbfd47672e88408183a29a633",
         "ui/video-recovery.js": "8a3be8f11ee1676234b2f65c34fa9c9b1a005dbb999366e60eb6ff5b77a5c334",
         "ui/plugin-update.js": "2d7e12d69f74abd19632f209286396f0c3eda0807cbdcf5f6a15350d20a1105b",
         "ui/plugin-sdk.js": "eec8c75a8762963a217b5b8c479b7d816e2347ab182f5c1fd49bee5d1e2d975f",
@@ -25,20 +25,20 @@
       }
     },
     "fengmuyv.suanliai-video-stable": {
-      "version": "1.4.10",
+      "version": "1.4.11",
       "min_host_version": "9.0.9",
-      "release_notes": "修复官方直连/官转稳定本地参考图上传404：改用现行素材预检上传接口，核验all_ok及图片URL。保留原始图片字节、最多3路并发、同批次复用和失败停止建单。保留个人Key、配置、模型目录及任务数据；更新后重启字字动画生效。已实测PNG上传及下载字节一致，并通过两套协议回归；未提交付费生成，平台渠道503不属于本次修复。",
+      "release_notes": "自动检测直连、系统代理、环境代理、已配置代理及本机实际监听的HTTP代理，按目标站点选择可用链路并缓存，失败后重新选路；不固定代理地址或端口。提交响应不明时停止重发，避免重复建单，器灵保留公开任务号找回。保留个人Key、配置、模型目录、任务数据、原图上传和下载恢复。保存工作后重启字字动画生效。32项暂存专项、32项安装后专项及5套既有回归通过；公网连接探测通过，未提交收费生成。",
       "package": {
-        "url": "https://github.com/fengmuyv/zzdh-plugin-updates/releases/download/suanli-v1.4.10/v1.4.10_suanliai_video_stable.zip",
-        "sha256": "f54d4a15b8ba090f62e54aff7685e6e1a243250cfee2dd639aa2e8dc7b3c66ab",
-        "size": 79942
+        "url": "https://github.com/fengmuyv/zzdh-plugin-updates/releases/download/suanli-v1.4.11/v1.4.11_suanliai_video_stable.zip",
+        "sha256": "65bc87b31482ee7ff0dbdbf68d354c848e56dc4445fc3e8711e32dc772969207",
+        "size": 89733
       },
       "files": {
-        "main.py": "62550404db5ad9696b712cb2b196d8d6538630856202714d7bc8d5fb9dca4946",
-        "info.json": "75b91f37c99ebbbb612c8ccbf0346e54014d1a235f3ab52763b02e32dc6e7e02",
-        "plugin_update.py": "77598e1e8d9e8da498bfacd9bc34b8db0f157852d0bc39a0d1d458a5d7af36db",
+        "main.py": "48676f7bae68e3dc0de4d4ab371e9cbf29327de64079f1c109e98d1e5b164717",
+        "info.json": "a69e1271e04e2c2323d295a881a47b8e4ef88193f8998e4486cce50807780fad",
+        "plugin_update.py": "8cfbb06b94d7fe86c7d441cb2965c120b815e0bfeac84d7aadc34c06540deb0c",
         "video_restart_recovery.py": "439a8fef6db13f1800529cc53d15a3f9590812f12ff32d42d5134ddad7f6e971",
-        "ui/index.html": "578c8440a8f959d87ce14d8dc2b01ad10e7d3c5b78703ca4083b30fee15eeafa",
+        "ui/index.html": "7f3046b69cb6d97967178d4b3f4267a3f181946cece1b2accd755e61cc436f35",
         "ui/video-restart-recovery.js": "5c7545338422651be0bca8ea39cf5c133a0d866cae248990741cb3680839f7fc",
         "ui/plugin-update.js": "2d7e12d69f74abd19632f209286396f0c3eda0807cbdcf5f6a15350d20a1105b",
         "ui/plugin-sdk.js": "eec8c75a8762963a217b5b8c479b7d816e2347ab182f5c1fd49bee5d1e2d975f",
@@ -48,20 +48,20 @@
       }
     },
     "fengmuyv.xingran-video-channel": {
-      "version": "3.0.15",
+      "version": "3.0.16",
       "min_host_version": "9.0.9",
-      "release_notes": "参考图最多3路并发，同图复用；10MiB以内按原字节上传，只有大于10MiB的静态PNG尝试无损优化，变小才用。保持尺寸、像素、透明度和色彩信息；JPEG等原样上传。素材失败停止后续上传和生成提交。保留Key、配置、模型、任务、下载恢复、双源更新和最近3份更新备份。重启字字动画生效。",
+      "release_notes": "自动检测直连、系统代理、环境代理、已配置代理及本机实际监听的HTTP代理，按目标站点选择可用链路并缓存，失败后重新选路；不固定代理地址或端口。提交响应不明时停止重发，避免重复建单，器灵保留公开任务号找回。保留个人Key、配置、模型目录、任务数据、原图上传和下载恢复。保存工作后重启字字动画生效。32项暂存专项、32项安装后专项及5套既有回归通过；公网连接探测通过，未提交收费生成。",
       "package": {
-        "url": "https://github.com/fengmuyv/zzdh-plugin-updates/releases/download/xingran-v3.0.15/v3.0.15_xingran_video_plugin.zip",
-        "sha256": "5b0e42c3486752ac0281a0fa7b36a26ac875e708abdb83e4d2d7af77fb8760f6",
-        "size": 59715
+        "url": "https://github.com/fengmuyv/zzdh-plugin-updates/releases/download/xingran-v3.0.16/v3.0.16_xingran_video_plugin.zip",
+        "sha256": "7a1186935185b3536f06fd735a1c53ad44e0786396a0c35e1ff25a877b484f28",
+        "size": 68563
       },
       "files": {
-        "main.py": "1a039c62224ebe6a9f4fe05dd9dc1cc9fd31a3cf9d4cb5f52068f440dc62d9d6",
-        "info.json": "0de7af8ebaca5e4f2aed60631616d789393fbd760c2e5430b64c0a51999acaca",
-        "plugin_update.py": "77598e1e8d9e8da498bfacd9bc34b8db0f157852d0bc39a0d1d458a5d7af36db",
+        "main.py": "cc5d6ab2aa367bb7d5d4f47376dacc6a12c33b59b4edce42d792b5252f4072a2",
+        "info.json": "a7e657e68b2972280f18cb7275773ebfba727da413f6a489c1dadd856271acd7",
+        "plugin_update.py": "8cfbb06b94d7fe86c7d441cb2965c120b815e0bfeac84d7aadc34c06540deb0c",
         "video_restart_recovery.py": "439a8fef6db13f1800529cc53d15a3f9590812f12ff32d42d5134ddad7f6e971",
-        "ui/index.html": "c75a8b06b9a49838791329a5218c1075f8ea6f15b4d187b66e19d0011baa0d84",
+        "ui/index.html": "26078ce1afa3768875d1d9efc71a46e6bc8fa7ec0a687cdf8def13ade380d9b0",
         "ui/video-restart-recovery.js": "5c7545338422651be0bca8ea39cf5c133a0d866cae248990741cb3680839f7fc",
         "ui/plugin-update.js": "2d7e12d69f74abd19632f209286396f0c3eda0807cbdcf5f6a15350d20a1105b",
         "ui/plugin-sdk.js": "eec8c75a8762963a217b5b8c479b7d816e2347ab182f5c1fd49bee5d1e2d975f",
