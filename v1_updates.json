@@ -2,22 +2,22 @@
   "schema_version": 1,
   "plugins": {
     "fengmuyv.qiling-video-channel": {
-      "version": "3.3.13",
+      "version": "3.3.14",
       "min_host_version": "9.0.9",
-      "release_notes": "自动检测直连、系统代理、环境代理、已配置代理及本机实际监听的HTTP代理，按目标站点选择可用链路并缓存，失败后重新选路；不固定代理地址或端口。提交响应不明时停止重发，避免重复建单，器灵保留公开任务号找回。保留个人Key、配置、模型目录、任务数据、原图上传和下载恢复。保存工作后重启字字动画生效。32项暂存专项、32项安装后专项及5套既有回归通过；公网连接探测通过，未提交收费生成。",
+      "release_notes": "修复任务已提交、后台仍在生成时，进度查询网络预检失败被误判为生成失败的问题。短暂查询中断继续查询原任务；持续失败或超时保留任务号，提示重试下载补取，勿重复提交。保留提交不明时停止重发、公开任务号找回、个人Key/模型目录/任务数据、原图上传、下载恢复、双源更新及最近3份备份，并包含更新状态循环重启修复。保存工作后完全退出并重开字字动画生效。未提交收费生成。",
       "package": {
-        "url": "https://github.com/fengmuyv/zzdh-plugin-updates/releases/download/qiling-v3.3.13/v3.3.13_qiling_video_plugin_1.44.zip",
-        "sha256": "5d46e5de81ef89482d498fe98995417e892d8837b423df7ef5196bf2440ceffd",
-        "size": 71055
+        "url": "https://github.com/fengmuyv/zzdh-plugin-updates/releases/download/qiling-v3.3.14/v3.3.14_qiling_video_plugin_1.44.zip",
+        "sha256": "476bd297c18d16e70404aff91baa542f62941741f66a4e5d7fa7855e163ae815",
+        "size": 71214
       },
       "files": {
-        "main.py": "b4b37087896ea9076b28140afef74cd1525e0134132e1484e414d506b4915d05",
-        "info.json": "d66272bb07d623c52374a9a11c1c7da3c3e23606364ad3982e8e0d18603aec99",
-        "plugin_update.py": "8cfbb06b94d7fe86c7d441cb2965c120b815e0bfeac84d7aadc34c06540deb0c",
+        "main.py": "6fe00edb484bb6d0a57990d7e83cccf7e50332e194b3fa824155a8b7ca86fa9c",
+        "info.json": "4833944cc30ed096b0c66323ab778831cdb3dfd7ee3a7eb93893d0d3cc3fbab8",
+        "plugin_update.py": "401bfec088c44b4fe04367057a7bd7294641637edb22e5f95b5bee1199d39dfc",
         "reference_media_guard.py": "632f2f5250d7d796e2066d05c40f6abcbe7c0d3f1dc1a2edab0a7b52199a50ce",
         "video_recovery.py": "0d32417b27631b36cc07d891651a6acf3eb0833940be20db5c57f7da465e21f0",
         "model_reference_limits.json": "0661d8f4378a374139e360b501b7dfb33d7718bea42782d9b20bdc44959fc2c7",
-        "ui/index.html": "fb6a9e4e5341129bfc9b46fddf9407c2f7a938edbfd47672e88408183a29a633",
+        "ui/index.html": "736f57c6aca0b051b15b38e78433a6c0dc0b139535aea3c5fec627613a418ebc",
         "ui/video-recovery.js": "8a3be8f11ee1676234b2f65c34fa9c9b1a005dbb999366e60eb6ff5b77a5c334",
         "ui/plugin-update.js": "2d7e12d69f74abd19632f209286396f0c3eda0807cbdcf5f6a15350d20a1105b",
         "ui/plugin-sdk.js": "eec8c75a8762963a217b5b8c479b7d816e2347ab182f5c1fd49bee5d1e2d975f",
